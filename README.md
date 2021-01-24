@@ -7,3 +7,7 @@ A 4-digit 7-segment display module based on the NXP PCF8562 driver IC. The PCB f
 * The PCB was designed to fit JLCPCB's design rules. Although a quick cross-check shows these rules are compatible with some other PCB fabs, please check that they meet your preferred PCB fab's specs.
 * If PCBs are manufactured using the HASL (Hot-Air Solder Leveling) surface finish, small solder bumps may be left on the TSSOP footprint's pins. It is recommended to clean these with some solder wick to make IC alignment easier. This is only necessary for the PCF8562 (U1).
 * This board can be hand-soldered, although some practice is recommended. All passives are 0805 size, and the PCF8562 can be quickly "drag-soldered" using plenty of flux. Be sure to closely inspect the PCF8562 pins for solder bridges and touch-up with solder wick as necessary.
+
+## Datasheets (from mouser.com)
+* [PCF8562](https://www.mouser.com/datasheet/2/302/PCF8562-1127585.pdf) (Driver IC)
+* [LCD-S401C52TR](https://www.mouser.com/datasheet/2/244/LCD-S401C52TR-1141159.pdf) (LCD)
