@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LCD-S401C52TR
+D 4-Digit 7 Segment LCD Module with Colon. 0.52 in Digit Height. Reflective TN LCD with Gray Background. 3.0-5.0 V AC.
+$ENDCMP
+#
+$CMP PCF8562
+D Low Multiplex Rate LCD Driver. Configurable 1-4 Backplanes. Up to 32 Segments Per Backplane. I2C Interface. 32x4 Display RAM. 1.8V-5.5V Logic. 2.5-6.5V LCD Supply Voltage
+$ENDCMP
+#
+#End Doc Library
