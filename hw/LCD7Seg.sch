@@ -1,14 +1,13 @@
 EESchema Schematic File Version 4
-LIBS:LCD7Seg-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "LCD 7 Segment Driver"
+Date "2021-02-01"
+Rev "2020.12"
+Comp "github.com/SomeInterestingUserName/lcd-7seg"
 Comment1 ""
 Comment2 ""
 Comment3 ""
