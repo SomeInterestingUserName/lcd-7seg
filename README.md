@@ -1,6 +1,6 @@
 # lcd-7seg
 A 4-digit 7-segment display module based on the NXP PCF8562 driver IC. The PCB fits a Lumex LCD-S401C52TR display. With the exception of Backplanes 2-4, all other pins of the PCF8562 are broken out to headers or jumpers to allow for evaluation of advanced features.
-
+![Front view of the LCD module](img/front.jpg)
 **Note:** The NXP datasheet currently lists the PCF8562 as "Not Recommended for New Designs". The PCF85162 (note the additional "1") is a drop-in replacement for this part. However, the PCF8562 (without the "1") is still widely available, and in fact appears to be available in larger quantities at the moment (as of January 2021).
 
 ## Hardware Notes
@@ -14,6 +14,8 @@ A 4-digit 7-segment display module based on the NXP PCF8562 driver IC. The PCB f
     * `I2C ADDR`: `0x70`
     * `OSC`: `INT`
     * `VLCD`: `VDD`
+
+![Rear view of the LCD module](img/rear.jpg)
 
 ## Datasheets (from mouser.com)
 * [PCF8562](https://www.mouser.com/datasheet/2/302/PCF8562-1127585.pdf) (Driver IC)
