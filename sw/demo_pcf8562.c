@@ -7,7 +7,7 @@
 #include <stdint.h>
 #include "lcd7seg.h"
 
-// How many nanoseconds are in a millisecond
+// How many microseconds are in a millisecond
 #define US_IN_MS 1E3
 
 void sleep_millis(int millis){
